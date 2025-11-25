@@ -1,0 +1,45 @@
+:root{
+    --bg-color:#EEF2F9;
+    --card-bg:#FFFFFF;
+    --heading-text:#191847;
+    --stock-text:#000000;
+    --stock:#00D98B;
+    --button-bg:#4788E9;
+    --border:#C9C9DA;
+    --box-shadow:#B3C1D9;
+    --gap:2rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+    background-color: var(--bg-color);
+    font-family:"Poppins", sans-serif;;
+}
+main{
+    width: 887px;
+    max-width: 90%;
+}
+section{
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+    padding: 5rem;
+    box-shadow: 0 24px 28px 9px var(--box-shadow);
+}
+.img{
+    align-self: flex-start;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
