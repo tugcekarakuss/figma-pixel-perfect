@@ -60,10 +60,11 @@ section {
 .img {
     align-self: flex-start;
 }
+
 .img img {
-  width: 100%;
-  height: auto;
-  max-width: 300px; /* desktop için sınır */
+    width: 100%;
+    height: auto;
+    max-width: 300px;
 }
 
 
@@ -87,7 +88,6 @@ section {
     border-radius: 20px;
     padding: 0.25rem 0.5rem;
     width: max-content;
-
 }
 
 .heading {
@@ -123,6 +123,13 @@ section {
     color: var(--card-bg);
     font-size: var(--fs-18);
     box-shadow: 0 7px var(--button-shadow);
+    transition: transform 0.2s ease;
+}
+
+.add-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px var(--button-shadow);
+    background: linear-gradient(135deg, var(--button-shadow), var(--button-bg));
 }
 
 .stock-info {
@@ -147,7 +154,6 @@ section {
     flex-direction: row;
     gap: var(--space-16);
     text-align: center;
-
 }
 
 .actions button {
@@ -162,13 +168,21 @@ section {
     align-items: center;
     justify-content: center;
     gap: var(--gap-10);
+    transition: all 0.2s ease;
+}
+
+
+.actions button:hover {
+    border-color: var(--heading-text);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width:768px) {
     main {
-    width: 90%;
-    margin: 1rem auto;
-}
+        width: 90%;
+        margin: 1rem auto;
+    }
+
     section {
         flex-direction: column;
         align-items: center;
@@ -176,12 +190,13 @@ section {
         text-align: center;
         padding: var(--space-32);
         gap: var(--space-32);
+    }
 
+    .img {
+        align-self: center;
     }
-    .img{
-        align-self:center;
-    }
+
     .img img {
-    max-width: 200px;
-  }
+        max-width: 200px;
+    }
 }
