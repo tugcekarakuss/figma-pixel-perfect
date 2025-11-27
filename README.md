@@ -16,30 +16,34 @@ Each UI is reproduced with high visual accuracy, clean structure, and modern fro
 
 ## 📂 Projects
 
-| Preview | Live Demo | Original Design |
-|--------|-----------|-----------------|
-| <img src="projects/product-info-ui-design/preview.jpg" width="260"> | *(coming soon)* | https://www.uidesigndaily.com/posts/figma-product-info-ui-design-card-day-1575 |
+## 📂 Projects
+
+| Preview | Live Demo | Original Design | Project Folder |
+|--------|-----------|-----------------|----------------|
+| <img src="./designs/product-info-ui-design-project.png" width="260"> | https://product-info-ui-design.netlify.app/ | https://www.uidesigndaily.com/posts/figma-product-info-ui-design-card-day-1575 | [Product Info UI Design](./product-info-ui-design)  |
+
 
 >  This table will be updated as new projects are added.
 
 ---
 
 ## 📁 Repository Structure
-
 ```
 root/
 │
-├── projects/
-│ ├── product-info-ui-design/
-│ │ ├── assets/
-│ │ ├── style.css
-│ │ ├── index.html
-│ │ └── README.md
-│ │ 
-│ │
-│ └── (upcoming projects)
-│
 ├── designs/
+│
+├── product-info-ui-design/
+│   ├── assets/
+│   ├── style.css
+│   ├── index.html
+│   └── README.md    
+│   
+│── new_project/
+│   ├── assets/
+│   ├── style.css
+│   ├── index.html
+│   └── README.md
 └── README.md
 
 ```
