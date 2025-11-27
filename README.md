@@ -16,11 +16,9 @@ Each UI is reproduced with high visual accuracy, clean structure, and modern fro
 
 ## 📂 Projects
 
-## 📂 Projects
-
 | Preview | Live Demo | Original Design | Project Folder |
 |--------|-----------|-----------------|----------------|
-| <img src="./designs/product-info-ui-design-project.png" width="260"> | https://product-info-ui-design.netlify.app/ | https://www.uidesigndaily.com/posts/figma-product-info-ui-design-card-day-1575 | [Product Info UI Design](./product-info-ui-design)  |
+| <img src="./designs/product-info-ui-design-project.png" width="350"> | https://product-info-ui-design.netlify.app/ | https://www.uidesigndaily.com/posts/figma-product-info-ui-design-card-day-1575 | [Product Info UI Design](./product-info-ui-design)  |
 
 
 >  This table will be updated as new projects are added.
