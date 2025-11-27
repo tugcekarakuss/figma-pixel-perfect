@@ -171,7 +171,6 @@ section {
     transition: all 0.2s ease;
 }
 
-
 .actions button:hover {
     border-color: var(--heading-text);
     box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
