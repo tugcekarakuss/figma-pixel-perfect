@@ -1,0 +1,33 @@
+:root {
+    --btn-bg: #1F2554;
+    --card-bg: #FFFFFF;
+    --body-bg: #F5F8FF;
+    --active: #3FDEA5;
+    --waiting: #DE783F;
+    --away: #D1D1D1;
+    --gridient-second: #3FDED5;
+    --radius:43px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+    background-color: var(--body-bg);
+}
+
+main {
+    width: min(617px, 90%);
+    margin: 1rem;
+}
+section {
+    padding: 80px;
+    border-radius: 43px;
+    background-color: var(--card-bg);
+}
