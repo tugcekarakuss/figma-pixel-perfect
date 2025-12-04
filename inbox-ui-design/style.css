@@ -1,17 +1,19 @@
 :root {
+    --radius: 43px;
+    /* colors */
     --btn-bg: #1F2554;
     --card-bg: #FFFFFF;
     --body-bg: #F5F8FF;
     --active: #3FDEA5;
     --waiting: #DE783F;
     --away: #D1D1D1;
-    --gridient-second: #3FDED5;
-    --radius: 43px;
+    --gradient-secondary: #3FDED5;
     /* font size*/
     --fs-14: clamp(0.8rem, 0.5vw + 0.6rem, 0.875rem);
     --fs-16: clamp(0.9rem, 1vw + 0.5rem, 1rem);
     --fs-18: clamp(1rem, 0.8vw + 0.7rem, 1.125rem);
     --fs-24: clamp(1.1rem, 1vw + 0.9rem, 1.5rem);
+
 }
 
 * {
@@ -31,9 +33,7 @@ body {
 }
 
 main {
-    width: 100%;
-    max-width: 617px;
-    min-height: calc(770px + 80px);
+    width: min(617px, 100%);
     margin: 1rem auto;
     position: relative;
     padding-top: 40px;
@@ -48,19 +48,14 @@ main::before {
     left: -40px;
     z-index: -1;
     border-radius: var(--radius);
-    background: linear-gradient(
-        135deg,
-        var(--active) 0%,
-        var(--gridient-second) 100%
-    );
+    background: linear-gradient(135deg,
+            var(--active) 0%,
+            var(--gradient-secondary) 100%);
 }
-
-
-
 
 section {
     padding: 80px;
-    border-radius: 43px;
+    border-radius: var(--radius);
     background-color: var(--card-bg);
     box-shadow: 0 47px 46px rgba(63, 222, 165, 0.2);
 }
@@ -92,7 +87,7 @@ h1 {
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, var(--btn-bg), var(--gridient-second));
+    background: linear-gradient(135deg, var(--btn-bg), var(--gradient-secondary));
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(63, 222, 165, 0.35);
 }
@@ -182,7 +177,4 @@ h1 {
     font-size: var(--fs-14);
     opacity: 0.7;
     white-space: nowrap;
-    justify-self: end;
-    align-self: center;
-
 }
