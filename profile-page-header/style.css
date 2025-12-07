@@ -1,0 +1,33 @@
+:root{
+    /* colors */
+    --body-bg:#DFDFDF;
+    --card-bg:#FFFAF2;
+    --icons-bg:#FFFFFF;
+    --text-color:#13143C;
+    --progress-color:#F17A37;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+    background-color: var(--body-bg);
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+main{
+    width: 90%;
+    max-width: 1051px;
+    margin: 1 auto;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 15.563rem;
+    background-color: var(--card-bg);
+    border-radius: 29px;
+    padding: 2.625rem;
+}
