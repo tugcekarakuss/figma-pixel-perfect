@@ -5,7 +5,7 @@ A clean and responsive product information card built as a pixel-perfect impleme
 The project focuses on faithful visual reproduction, well-structured HTML, and modern CSS practices.
 
 ---
-## Figma Design
+## 🎨Figma Design
 
 👉**Figma Design Link:** https://www.uidesigndaily.com/posts/figma-product-info-ui-design-card-day-1575
 
