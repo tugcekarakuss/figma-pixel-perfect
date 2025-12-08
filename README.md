@@ -16,17 +16,18 @@ Each UI is reproduced with high visual accuracy, clean structure, and modern fro
 
 ## 📂 Projects
 
-| Preview | Live Demo | Original Design | Project Folder |
-|--------|-----------|-----------------|----------------|
-| <img src="./designs/product-info-ui-design-project.png" width="350"> | https://product-info-ui-design.netlify.app/ | https://www.uidesigndaily.com/posts/figma-product-info-ui-design-card-day-1575 | [Product Info UI Design](./product-info-ui-design) |
-| <img src="./designs/inbox-ui-design-project.png" width="350"> | https://inbox-ui-design.netlify.app/ | https://inbox-ui-design.netlify.app/ | [Inbox UI Design](./inbox-ui-design) |
+| Preview                                                                  | Live Demo                                   | Original Design                                                                | Project Folder                                     |
+| ------------------------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------- |
+| <img src="./designs/product-info-ui-design-project.png" width="350">     | https://product-info-ui-design.netlify.app/ | https://www.uidesigndaily.com/posts/figma-product-info-ui-design-card-day-1575 | [Product Info UI Design](./product-info-ui-design) |
+| <img src="./designs/inbox-ui-design-project.png" width="350">            | https://inbox-ui-design.netlify.app/        | https://inbox-ui-design.netlify.app/                                           | [Inbox UI Design](./inbox-ui-design)               |
+| <img src="./designs/profile-page-header-design-project.png" width="350"> | https://profilepageheader.netlify.app/      | https://www.uidesigndaily.com/posts/figma-profile-page-header-card-day-1580    |  [Profile Page Header](./profile-page-header/)                             |
 
-
->  This table will be updated as new projects are added.
+> This table will be updated as new projects are added.
 
 ---
 
 ## 📁 Repository Structure
+
 ```
 root/
 │
@@ -36,9 +37,15 @@ root/
 │   ├── assets/
 │   ├── style.css
 │   ├── index.html
-│   └── README.md    
-│   
+│   └── README.md
+│
 │── inbox-ui-design/
+│   ├── images/
+│   ├── style.css
+│   ├── index.html
+│   └── README.md
+│
+│── profile-page-headern/
 │   ├── images/
 │   ├── style.css
 │   ├── index.html
@@ -51,20 +58,20 @@ root/
 
 ## 🎯 Purpose
 
-- Practice pixel-perfect frontend implementation  
-- Improve layout accuracy, spacing consistency, and visual precision  
-- Build a professional portfolio of real UI replications  
-- Strengthen the workflow between Figma inspection and frontend development  
-- Experiment with different styling methodologies and component structures  
+- Practice pixel-perfect frontend implementation
+- Improve layout accuracy, spacing consistency, and visual precision
+- Build a professional portfolio of real UI replications
+- Strengthen the workflow between Figma inspection and frontend development
+- Experiment with different styling methodologies and component structures
 
 ---
 
 ## 🚀 Roadmap
 
-- Add new UI replications regularly  
-- Include mini README files for each project  
-- Optionally integrate Vite/React setups for suitable projects  
-- Explore responsive variations for selected designs  
+- Add new UI replications regularly
+- Include mini README files for each project
+- Optionally integrate Vite/React setups for suitable projects
+- Explore responsive variations for selected designs
 
 ---
 
