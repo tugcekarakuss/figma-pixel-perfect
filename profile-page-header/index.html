@@ -15,8 +15,8 @@
   </head>
   <body>
     <main>
-      <section>
-        <div class="profile-about">
+      <section class="profile-header">
+        <div class="profile-info">
           <img
             src="images/profile-picture.png"
             alt="MetaMask profile picture"
@@ -25,27 +25,28 @@
           <h2>@metamask</h2>
           <p>MetaMask brings Ethereum to your web browser</p>
           <div class="social-media">
-            <ul>
-              <li><img src="images/github-icon.png" alt="github icon" /></li>
-              <li>
-                <img src="images/linkedin-icon.png" alt="linkedin icon" />
-              </li>
-              <li><img src="images/fox-icon.png" alt="fox icon" /></li>
-              <li>
-                <img src="images/ethereum-icon.png" alt="ethereum icon" />
-              </li>
-            </ul>
+            <button>
+              <img src="images/github-icon.png" alt="GitHub profile link" />
+            </button>
+
+            <button>
+              <img src="images/linkedin-icon.png" alt="Linkedin profile link" />
+            </button>
+            <button><img src="images/fox-icon.png" alt="MetaMask website link" /></button>
+            <button>
+              <img src="images/ethereum-icon.png" alt="Ethereum profile link" />
+            </button>
           </div>
         </div>
-        <div class="account-about">
+        <div class="account-stats">
           <div class="progress">
             <p>6/8 Organizations</p>
-            <img src="images/i-icon.png" alt="i icon" />
+            <img src="images/i-icon.png" alt="More information" />
           </div>
-          <progress max="80" value="50">60%</progress>
+          <progress max="8" value="6">60%</progress>
           <div class="follow">
-            <p><span>4K</span>Followers</p>
-            <button>Follow</button>
+            <p><span>4K</span> Followers</p>
+            <button aria-label="Follow MetaMask account">Follow</button>
           </div>
         </div>
       </section>
