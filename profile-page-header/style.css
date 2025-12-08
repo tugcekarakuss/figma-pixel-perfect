@@ -47,7 +47,7 @@ main {
     gap: 1.25rem;
 }
 
-.profile-info .profile-img {
+.profile-img {
     width: clamp(50px, 10vw, 100px);
 }
 
@@ -91,7 +91,7 @@ main {
 .social-media button:hover {
     cursor: pointer;
     background-color: var(--body-bg);
-    transform: scale(0.9);
+    transform: scale(1.05);
 }
 
 .account-stats {
@@ -153,4 +153,44 @@ main {
     font-size: var(--fs-18);
     font-weight: bold;
     height: 65px;
+}
+@media(max-width: 767px) {
+
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.8rem;
+        gap: 2rem;
+    }
+
+    .progress-text {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .progress-bar {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .progress-bar::before {
+        width: 75%;
+        left: 0;
+        top: 0;
+    }
+
+    .account-stats {
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .follow p {
+        text-align: center;
+    }
 }
