@@ -17,22 +17,25 @@
     <main>
       <section class="profile-header">
         <div class="profile-info">
-          <img
+          <img class="profile-img"
             src="images/profile-picture.png"
             alt="MetaMask profile picture"
           />
-          <h1>MetaMask</h1>
-          <h2>@metamask</h2>
-          <p>MetaMask brings Ethereum to your web browser</p>
+          <div class="profile-text">
+            <h1>MetaMask</h1>
+            <h2>@metamask</h2>
+            <p>MetaMask brings Ethereum to your web browser</p>
+          </div>
           <div class="social-media">
             <button>
               <img src="images/github-icon.png" alt="GitHub profile link" />
             </button>
-
             <button>
               <img src="images/linkedin-icon.png" alt="Linkedin profile link" />
             </button>
-            <button><img src="images/fox-icon.png" alt="MetaMask website link" /></button>
+            <button>
+              <img src="images/fox-icon.png" alt="MetaMask website link" />
+            </button>
             <button>
               <img src="images/ethereum-icon.png" alt="Ethereum profile link" />
             </button>
@@ -40,10 +43,13 @@
         </div>
         <div class="account-stats">
           <div class="progress">
+            <div class="progress-text">
             <p>6/8 Organizations</p>
             <img src="images/i-icon.png" alt="More information" />
           </div>
-          <progress max="8" value="6">60%</progress>
+          <div class="progress-bar"></div>
+          </div>
+          
           <div class="follow">
             <p><span>4K</span> Followers</p>
             <button aria-label="Follow MetaMask account">Follow</button>
